@@ -14,7 +14,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://your-frontend.com")
+                        .allowedOrigins("https://task-manager-fex9.onrender.com")
                         .allowedMethods("*");
             }
         };
